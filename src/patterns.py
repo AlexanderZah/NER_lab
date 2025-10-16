@@ -1,5 +1,5 @@
 ORG_SUFFIXES = [
-    "Inc", "Corp", "LLC", "Ltd", "Company", "Co", "PLC", "S.A.", "G.m.b.H", "GmbH",
+    "Inc", "Corp", "LLC", "Ltd", "Company", "Co", "Co.", "PLC", "S.A.", "G.m.b.H", "GmbH",
     "Assurances", "Group", "Bank", "Commission", "Ministry", "Department", "Dept",
     "Committee", "Board", "Exchange", "Trust", "Administration", "Court", "FDA",
     "Party", "Senate", "Congress", "Association", "Organization", "Org", "Theater",
@@ -15,32 +15,35 @@ ORG_SUFFIXES = [
     "CIA", "FBI", "IRS", "FDA", "SEC", "FHA", "VA", "GAO", "GATT", "NASD", "RTC",
     "ULI", "MIT", "UCLA", "HBO", "MTV", "VH", "NASA", "NATO", "UN", "U.N."
 ]
-
 ORG_KEYWORDS = [
-    "Federal", "National", "International", "American", "European", "World", "Global",
-    "United", "Royal", "State", "Central", "First", "General", "Standard", "Professional",
+    "Federal", "National", "International", "American", "European", "World",
+    "United", "Royal", "State", "Central", "General", "Standard", "Professional",
     "Agricultural", "Financial", "Industrial", "Commercial", "Corporate", "Business",
-    "Municipal", "Regional", "District", "Local", "Urban", "Metropolitan", "Capital",
-    "Supreme", "Higher", "Lower", "Upper", "Eastern", "Western", "Northern", "Southern",
-    "Middle", "Foreign", "Domestic", "Public", "Private", "Joint", "Government",
-    "State-owned", "Publicly-traded", "Chamber", "House", "White", "Pentagon", "Treasury",
-    "Justice", "Commerce", "Defense", "Energy", "Education", "Health", "Transportation",
-    "Agriculture", "Labor", "Veterans", "Security", "Intelligence", "Budget",
-    "Appropriations", "Small", "Savings", "Credit", "Montreal", "Manhattan", "Toronto",
-    "Boston", "New", "Old", "Big", "Small", "High", "Low", "Main", "City", "County",
-    "Village", "Town", "Port", "Bay", "River", "Mountain", "Valley", "Hill", "Lake",
-    "Ocean", "Sea", "Island", "Park", "Square", "Street", "Avenue", "Boulevard", "Road",
-    "Drive", "Lane", "Place", "Court", "Plaza", "Building", "Tower", "Center", "Mall",
-    "Market", "Store", "Shop", "Boutique", "Gallery", "Studio", "Theatre", "Cinema",
-    "Hotel", "Restaurant", "Cafe", "Bar", "Club", "Gym", "Spa", "Salon", "Bank", "ATM",
-    "Hospital", "Clinic", "Pharmacy", "School", "College", "University", "Academy",
-    "Library", "Museum", "Gallery", "Theater", "Stadium", "Arena", "Field", "Track",
-    "Pool", "Gymnasium", "Auditorium", "Hall", "Room", "Office", "Suite", "Floor",
-    "Building", "Complex", "Center", "Plaza", "Mall", "Market", "Store", "Shop"
+    "Municipal", "Regional", "Local", "Urban", "Metropolitan", "Capital",
+    "Supreme", "Foreign", "Domestic", "Public", "Private", "Government",
+    "Chamber", "House", "White", "Pentagon", "Treasury", "Justice", "Commerce",
+    "Defense", "Energy", "Education", "Health", "Transportation", "Agriculture",
+    "Labor", "Veterans", "Security", "Intelligence", "Budget", "Small", "Credit",
+    "New", "Old", "City", "County", "Town", "Port", "Hill", "Lake", "Park",
+    "Square", "Street", "Avenue", "Road", "Place", "Court", "Plaza", "Building",
+    "Tower", "Center", "Mall", "Market", "Store", "Shop", "Gallery", "Studio",
+    "Theatre", "Cinema", "Hotel", "Restaurant", "Bank", "Hospital", "Clinic",
+    "School", "College", "University", "Academy", "Library", "Museum", "Theater",
+    "Stadium", "Arena", "Field", "Pool", "Gymnasium", "Auditorium", "Hall",
+    "Room", "Office", "Suite", "Floor", "Complex", "Plaza",
+    "UN", "CNN", "CIA", "FBI", "Fed", "IBM", "NBC", "CBS", "Journal", "Pepsi",
+    "GE", "PLO", "FHA", "FDIC", "GAO", "GATT", "NASD", "RTC", "ULI", "MIT",
+    "UCLA", "HBO", "MTV", "NASA", "NATO", "U.N.", "CBI", "CDU", "TDK", "UAL",
+    "IRS", "S&P", "NU", "LDP", "RIT",
+    "Sony", "Ford", "GM", "Chrysler", "Toyota", "Nissan", "Volvo", "Cadillac",
+    "Pontiac", "Polaroid", "Revlon", "Forbes", "Chevrolet", "Dodge", "Acura",
+    "Sterling", "Hyundai", "Lexus", "Renault", "Fiat", "Isuzu", "Daihatsu",
+    "Mitsubishi", "Merkur", "Mercedes", "Caterpillar", "Aetna", "Allianz",
+    "Pan", "Apple", "Intel", "Compaq", "Sun", "AST", "Tandy", "Advanced",
+    "Digital", "Hewlett", "LSI", "AST",
+    "Times", "Post", "Economist", "News", "Review", "Literary"
 ]
 
-BAD_ORG_TOKENS = {"the", "a", "an", "mr.",
-                  "mr", "mrs", "ms", "well", "inc", "company"}
 
 COUNTRIES = ["japan", "germany", "france", "italy", "china", "canada", "mexico",
              "brazil", "india", "australia", "russia", "spain", "poland", "israel",
